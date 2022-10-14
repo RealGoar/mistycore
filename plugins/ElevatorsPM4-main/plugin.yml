@@ -1,0 +1,7 @@
+name: ElevatorsPM4
+main: zOmArRD\elevators\Elevator
+src-namespace-prefix: zOmArRD\elevators
+version: 1.0.0
+api: 4.0.0
+author: zOmArRD
+description: Elevator plugin for PocketMine

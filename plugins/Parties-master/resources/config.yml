@@ -1,0 +1,49 @@
+#  _____           _
+# |  __ \         | | (_)
+# | |__) |_ _ _ __| |_ _  ___  ___
+# |  ___/ _` | '__| __| |/ _ \/ __|
+# | |  | (_| | |  | |_| |  __/\__ \
+# |_|   \__,_|_|   \__|_|\___||___/
+
+# These are the maximum party slots
+maximum-party-slots: 8
+
+# Do you want this option to be displayed on the party options form so party leaders can enable or disable it?
+show-disable-pvp-with-party-members-option: true
+show-teleport-members-to-leader-on-change-world-option: true
+
+# Do you want to disable the pvp (player versus player) damage between the party members?
+default-disable-pvp-with-party-members: true
+
+# Do you want to teleport all the party members to the leader when the leader goes to another world?
+default-teleport-members-to-leader-on-change-world: true
+
+# Do you want to teleport all the party members to the leader gets teleported to another server?
+# To transfer a player to another server, use Player->transfer()
+teleport-members-to-leader-on-transfer-server: true
+
+# If this option is enabled, all the members of the party will execute the same command that the leader has executed
+# You must have the commands written on selected-leader-commands. If this option is set to false, it won't do anything.
+# If the member does not have permission to use the command, he will not execute it.
+enable-leader-commands: true
+selected-leader-commands:
+  - "tp diduhless didah"
+  - "yourcommand"
+
+# The party item is an item that is set to the player when he joins the server.
+# Interacting with the party item opens the parties form (same as /party).
+give-party-item: true
+# If this option is enabled, players won't be able to move or drop the party item from their inventory.
+fix-party-item: true
+# This is the index where the party item will be set.
+# For example, if you want to set the item to the 9th slot, you will have to put 8. (indexes start at 0 instead of 1)
+party-item-index: 8
+# The party item will only be given when a player moves to any of these worlds (uppercases matter).
+party-item-worlds:
+  - "worldname"
+  - "didah"
+# These three values represent: item id, item meta and item custom name.
+party-item:
+  - 467
+  - 0
+  - "Party"

@@ -1,0 +1,20 @@
+{
+    "name": "nexdev/datagram",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Nexdev\\Datagram\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "NexDev",
+            "email": "nexdev22@gmail.com"
+        }
+    ],
+    "require": {
+        "react/event-loop": "^1.3",
+        "react/promise": "^2.9",
+        "react/datagram": "^1.8"
+    }
+}

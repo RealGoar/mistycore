@@ -1,0 +1,5 @@
+name: Pots
+version: 0.1
+author: JuqnGOOD
+main: juqn\pots\Pots
+api: 4.0.0

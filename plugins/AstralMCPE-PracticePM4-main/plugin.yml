@@ -1,0 +1,112 @@
+name: Orix
+author: Cliqnt
+main: Jacob\Orix\AdvancedPractice
+description: "A Practice Core"
+version: 1.0.0
+api: "4.0.0"
+load: POSTWORLD
+permissions:
+  trail.angry_villager:
+    default: op
+  trail.enchantment:
+    default: op
+  trail.flame:
+    default: op
+  trail.happy_villager:
+    default: op
+  trail.hearts:
+    default: op
+  trail.lava:
+    default: op
+  trail.lava_drip:
+    default: op
+  trail.portal:
+    default: op
+  trail.redstone:
+    default: op
+  trail.water:
+    default: op
+  trail.water_drip:
+    default: op
+  particle.angry_villager:
+    default: op
+  particle.enchantment:
+    default: op
+  particle.flame:
+    default: op
+  particle.happy_villager:
+    default: op
+  particle.hearts:
+    default: op
+  particle.lava:
+    default: op
+  particle.lava_drip:
+    default: op
+  particle.portal:
+    default: op
+  particle.redstone:
+    default: op
+  particle.water:
+    default: op
+  particle.water_drip:
+    default: op
+  wing.black:
+    default: op
+  wing.brown:
+    default: op
+  wing.blue:
+    default: op
+  wing.green:
+    default: op
+  wing.gray:
+    default: op
+  wing.orange:
+    default: op
+  wing.pink:
+    default: op
+  wing.purple:
+    default: op
+  wing.red:
+    default: op
+  wing.white:
+    default: op
+  wing.yellow:
+    default: op
+  alerts.command.use:
+    default: op
+    ban.command.use:
+      default: op
+    banlist.command.use:
+      default: op
+    tban.command.use:
+      default: op
+    check.command.use:
+      default: op
+    clear.command.use:
+      default: op
+    enchant.command.use:
+      default: op
+    gamemode.command.use:
+      default: op
+    gip.command.use:
+      default: op
+    history.command.use:
+      default: op
+    kick.command.use:
+      default: op
+    mute.command.use:
+      default: op
+    tmute.command.use:
+      default: op
+    report.command.use:
+      default: op
+    sc.command.use:
+      default: op
+    unban.command.use:
+      default: op
+    unmute.command.use:
+      defaulte: op
+    warn.command.use:
+      default: op
+    mod.command.use:
+      default: op

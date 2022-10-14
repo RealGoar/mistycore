@@ -1,0 +1,13 @@
+{
+	"version": 1.0,
+	"sign-lines": {
+		"first": "[elevator]",
+		"second": "up:down"
+	},
+	"messages": {
+		"elevator-create-success": "§aYou successfully create an elevator sign!",
+		"elevator-create-fail": "§cAn error occurred creating the elevator!",
+		"elevator-teleport-up": "§aTeleporting up!",
+		"elevator-teleport-down": "§aTeleporting down!"
+	}
+}

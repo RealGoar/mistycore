@@ -1,0 +1,10 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Diduhless/Parties
+build-by-default: true
+projects:
+  Parties:
+    path: ""
+    icon: "icon.png"
+    libs:
+      - src: andresbytes/EasyUI/libEasyUI
+        version: 1.0.2
+...

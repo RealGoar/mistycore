@@ -1,0 +1,5 @@
+name: AdvancedPotions
+version: 0.0.1
+author: itoozh
+main: itoozh\AdvancedPots\Main
+api: 4.0.0

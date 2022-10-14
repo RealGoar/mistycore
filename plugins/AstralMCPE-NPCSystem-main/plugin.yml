@@ -1,0 +1,13 @@
+name: NPCSystem
+version: 0.0.1
+api: 4.0.0
+author: itoozh
+main: itoozh\NPCSystem\Main
+
+permissions:
+  npc.command:
+    description: by itoozh
+    default: op
+  removenpc:
+    description: by itoozh
+    default: op

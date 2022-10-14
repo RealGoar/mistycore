@@ -1,0 +1,5 @@
+name: Economy
+main: Economy\Main
+api: 4.0.0
+version: 1.0
+author: NexDev
